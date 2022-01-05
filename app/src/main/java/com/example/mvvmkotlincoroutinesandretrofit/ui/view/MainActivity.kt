@@ -39,6 +39,7 @@ class MainActivity : AppCompatActivity() {
 
         viewModel.errorMessage.observe(this, {
             Toast.makeText(this, it, Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, it, Toast.LENGTH_SHORT).show()
         })
 
         viewModel.loading.observe(this, Observer {
